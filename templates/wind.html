@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Web Design Challenge Oscar Safie</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+    <a class="navbar-brand" href="landing.html">Latitude</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Plots
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="temperature.html">Max Temperature</a>
+            <a class="dropdown-item" href="humidity.html">Humidity</a>
+            <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+            <a class="dropdown-item" href="wind.html">Wind Speed</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="comparisons.html">Comparisons</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="data.html">Data</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+
+  <div class="container content">    
+    <div class="row">
+        <div class="col-md-8">
+            <div class="col-md-12">
+                <h3>Latitude vs. Wind Speed</h3>
+                <hr>
+                <div class="thumbnail">
+                    <img class="img-thumbnail" src="../Images/Fig4.png " width="100%" alt="temperature">
+                </div>                
+                <p>In this final scatter plot, there is no dominant trend between latitude and wind speed. Just like with cloudiness, wind speed within each city can be the result of altitude, how close the city is to the water, etc. </p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="col-md-12">
+                <h3>Visualizations</h3>
+                <hr>
+                <div class="row">
+                    <div class="col-3 col-md-6">
+                        <a href="temperature.html"><img src="../Images/Fig1.png" width="100%"  alt="Temperature">
+                        </a> 
+                    </div>
+                    <div class="col-3 col-md-6">
+                        <a href="humidity.html"><img src="../Images/Fig2.png" width="100%" alt="Humidity"></a>
+                    </div>
+               
+                    <div class="col-3 col-md-6">
+                        <a href="cloudiness.html"><img src="../Images/Fig3.png" width="100%"  alt="Cloudiness"></a>
+                    </div>
+
+                    <div class="col-3 col-md-6">
+                        <a href="wind.html"><img src="../Images/Fig4.png"width="100%"  alt="Wind Speed"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

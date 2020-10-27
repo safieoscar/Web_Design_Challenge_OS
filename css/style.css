@@ -1,0 +1,22 @@
+.img-thumbnail {
+    margin: 20px;
+}
+
+h5{
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* small screen adjustments*/
+@media(max-width:767px){
+    .navbar.bg-light{
+        background-color: rgb(218, 218, 218)!important;    
+    }
+
+    .navbar-collapse{
+        background-color: #f8f9fa;
+    }
+    .navbar{
+        padding:inherit;
+    }
+}
